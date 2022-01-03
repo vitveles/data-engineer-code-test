@@ -1,0 +1,18 @@
+report_date:
+  2022-01-01
+
+sources:
+  - customers
+  - loans
+
+targets:
+  - customers
+  - loans
+  - currencies
+
+datamarts:
+  client_loans:
+    - d_calendar
+    - d_customers
+    - d_currencies
+    - f_client_loans

@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS k_loans
+(
+    loan_rk NUMERIC(10) NOT NULL,
+    loan_number TEXT NOT NULL PRIMARY KEY
+)

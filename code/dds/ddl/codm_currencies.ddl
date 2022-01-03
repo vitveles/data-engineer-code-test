@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS codm_currencies
+(
+   currency_rk      NUMERIC(10) PRIMARY KEY,
+   currency         text,
+   VALID_FROM_DTTM  TIMESTAMP,
+   VALID_TO_DTTM    TIMESTAMP,
+   PROCESSED_DTTM   TIMESTAMP
+)
